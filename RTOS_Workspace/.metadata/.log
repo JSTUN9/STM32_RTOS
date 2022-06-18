@@ -1,0 +1,2403 @@
+!SESSION 2022-06-17 16:15:39.776 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/justintan/STM32_Workspace/RTOS_Workspace/.metadata/.bak_0.log
+Created Time: 2022-06-17 16:15:57.022
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.023
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.024
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.910
+!MESSAGE Failed to parse udevadm output for /dev/ttyS31
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.912
+!MESSAGE Failed to parse udevadm output for /dev/ttyS30
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.913
+!MESSAGE Failed to parse udevadm output for /dev/ttyS29
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.915
+!MESSAGE Failed to parse udevadm output for /dev/ttyS28
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.916
+!MESSAGE Failed to parse udevadm output for /dev/ttyS27
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.918
+!MESSAGE Failed to parse udevadm output for /dev/ttyS26
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.921
+!MESSAGE Failed to parse udevadm output for /dev/ttyS25
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.922
+!MESSAGE Failed to parse udevadm output for /dev/ttyS24
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.924
+!MESSAGE Failed to parse udevadm output for /dev/ttyS23
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.926
+!MESSAGE Failed to parse udevadm output for /dev/ttyS22
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.927
+!MESSAGE Failed to parse udevadm output for /dev/ttyS21
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.929
+!MESSAGE Failed to parse udevadm output for /dev/ttyS20
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.931
+!MESSAGE Failed to parse udevadm output for /dev/ttyS19
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.932
+!MESSAGE Failed to parse udevadm output for /dev/ttyS18
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.933
+!MESSAGE Failed to parse udevadm output for /dev/ttyS17
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.935
+!MESSAGE Failed to parse udevadm output for /dev/ttyS16
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.937
+!MESSAGE Failed to parse udevadm output for /dev/ttyS15
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.938
+!MESSAGE Failed to parse udevadm output for /dev/ttyS14
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.940
+!MESSAGE Failed to parse udevadm output for /dev/ttyS13
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.941
+!MESSAGE Failed to parse udevadm output for /dev/ttyS12
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.942
+!MESSAGE Failed to parse udevadm output for /dev/ttyS11
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.944
+!MESSAGE Failed to parse udevadm output for /dev/ttyS10
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.945
+!MESSAGE Failed to parse udevadm output for /dev/ttyS9
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.946
+!MESSAGE Failed to parse udevadm output for /dev/ttyS8
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.947
+!MESSAGE Failed to parse udevadm output for /dev/ttyS7
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.949
+!MESSAGE Failed to parse udevadm output for /dev/ttyS6
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.950
+!MESSAGE Failed to parse udevadm output for /dev/ttyS5
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.951
+!MESSAGE Failed to parse udevadm output for /dev/ttyS4
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.952
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.954
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.955
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:57.957
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.915
+!MESSAGE Failed to parse udevadm output for /dev/ttyS31
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.920
+!MESSAGE Failed to parse udevadm output for /dev/ttyS30
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.925
+!MESSAGE Failed to parse udevadm output for /dev/ttyS29
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.930
+!MESSAGE Failed to parse udevadm output for /dev/ttyS28
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.936
+!MESSAGE Failed to parse udevadm output for /dev/ttyS27
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.941
+!MESSAGE Failed to parse udevadm output for /dev/ttyS26
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.946
+!MESSAGE Failed to parse udevadm output for /dev/ttyS25
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.952
+!MESSAGE Failed to parse udevadm output for /dev/ttyS24
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.957
+!MESSAGE Failed to parse udevadm output for /dev/ttyS23
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.962
+!MESSAGE Failed to parse udevadm output for /dev/ttyS22
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.967
+!MESSAGE Failed to parse udevadm output for /dev/ttyS21
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.971
+!MESSAGE Failed to parse udevadm output for /dev/ttyS20
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.974
+!MESSAGE Failed to parse udevadm output for /dev/ttyS19
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.976
+!MESSAGE Failed to parse udevadm output for /dev/ttyS18
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.978
+!MESSAGE Failed to parse udevadm output for /dev/ttyS17
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.980
+!MESSAGE Failed to parse udevadm output for /dev/ttyS16
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.982
+!MESSAGE Failed to parse udevadm output for /dev/ttyS15
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.983
+!MESSAGE Failed to parse udevadm output for /dev/ttyS14
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.985
+!MESSAGE Failed to parse udevadm output for /dev/ttyS13
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.986
+!MESSAGE Failed to parse udevadm output for /dev/ttyS12
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.987
+!MESSAGE Failed to parse udevadm output for /dev/ttyS11
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.989
+!MESSAGE Failed to parse udevadm output for /dev/ttyS10
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.990
+!MESSAGE Failed to parse udevadm output for /dev/ttyS9
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.991
+!MESSAGE Failed to parse udevadm output for /dev/ttyS8
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.992
+!MESSAGE Failed to parse udevadm output for /dev/ttyS7
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.993
+!MESSAGE Failed to parse udevadm output for /dev/ttyS6
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.994
+!MESSAGE Failed to parse udevadm output for /dev/ttyS5
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.995
+!MESSAGE Failed to parse udevadm output for /dev/ttyS4
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.996
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.997
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.998
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:58.999
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.913
+!MESSAGE Failed to parse udevadm output for /dev/ttyS31
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.922
+!MESSAGE Failed to parse udevadm output for /dev/ttyS30
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.924
+!MESSAGE Failed to parse udevadm output for /dev/ttyS29
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.925
+!MESSAGE Failed to parse udevadm output for /dev/ttyS28
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.927
+!MESSAGE Failed to parse udevadm output for /dev/ttyS27
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.928
+!MESSAGE Failed to parse udevadm output for /dev/ttyS26
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.930
+!MESSAGE Failed to parse udevadm output for /dev/ttyS25
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.931
+!MESSAGE Failed to parse udevadm output for /dev/ttyS24
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.933
+!MESSAGE Failed to parse udevadm output for /dev/ttyS23
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.934
+!MESSAGE Failed to parse udevadm output for /dev/ttyS22
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.935
+!MESSAGE Failed to parse udevadm output for /dev/ttyS21
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.936
+!MESSAGE Failed to parse udevadm output for /dev/ttyS20
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.937
+!MESSAGE Failed to parse udevadm output for /dev/ttyS19
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.938
+!MESSAGE Failed to parse udevadm output for /dev/ttyS18
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.939
+!MESSAGE Failed to parse udevadm output for /dev/ttyS17
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.940
+!MESSAGE Failed to parse udevadm output for /dev/ttyS16
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.941
+!MESSAGE Failed to parse udevadm output for /dev/ttyS15
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.943
+!MESSAGE Failed to parse udevadm output for /dev/ttyS14
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.945
+!MESSAGE Failed to parse udevadm output for /dev/ttyS13
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.947
+!MESSAGE Failed to parse udevadm output for /dev/ttyS12
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.948
+!MESSAGE Failed to parse udevadm output for /dev/ttyS11
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.949
+!MESSAGE Failed to parse udevadm output for /dev/ttyS10
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.950
+!MESSAGE Failed to parse udevadm output for /dev/ttyS9
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.952
+!MESSAGE Failed to parse udevadm output for /dev/ttyS8
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.953
+!MESSAGE Failed to parse udevadm output for /dev/ttyS7
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.954
+!MESSAGE Failed to parse udevadm output for /dev/ttyS6
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.955
+!MESSAGE Failed to parse udevadm output for /dev/ttyS5
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.956
+!MESSAGE Failed to parse udevadm output for /dev/ttyS4
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.957
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.958
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.959
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:15:59.960
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.910
+!MESSAGE Failed to parse udevadm output for /dev/ttyS31
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.912
+!MESSAGE Failed to parse udevadm output for /dev/ttyS30
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.914
+!MESSAGE Failed to parse udevadm output for /dev/ttyS29
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.916
+!MESSAGE Failed to parse udevadm output for /dev/ttyS28
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.919
+!MESSAGE Failed to parse udevadm output for /dev/ttyS27
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.921
+!MESSAGE Failed to parse udevadm output for /dev/ttyS26
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.924
+!MESSAGE Failed to parse udevadm output for /dev/ttyS25
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.926
+!MESSAGE Failed to parse udevadm output for /dev/ttyS24
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.928
+!MESSAGE Failed to parse udevadm output for /dev/ttyS23
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.930
+!MESSAGE Failed to parse udevadm output for /dev/ttyS22
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.932
+!MESSAGE Failed to parse udevadm output for /dev/ttyS21
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.934
+!MESSAGE Failed to parse udevadm output for /dev/ttyS20
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.936
+!MESSAGE Failed to parse udevadm output for /dev/ttyS19
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.938
+!MESSAGE Failed to parse udevadm output for /dev/ttyS18
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.940
+!MESSAGE Failed to parse udevadm output for /dev/ttyS17
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.942
+!MESSAGE Failed to parse udevadm output for /dev/ttyS16
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.945
+!MESSAGE Failed to parse udevadm output for /dev/ttyS15
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.947
+!MESSAGE Failed to parse udevadm output for /dev/ttyS14
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.949
+!MESSAGE Failed to parse udevadm output for /dev/ttyS13
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.951
+!MESSAGE Failed to parse udevadm output for /dev/ttyS12
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.953
+!MESSAGE Failed to parse udevadm output for /dev/ttyS11
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.955
+!MESSAGE Failed to parse udevadm output for /dev/ttyS10
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.957
+!MESSAGE Failed to parse udevadm output for /dev/ttyS9
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.959
+!MESSAGE Failed to parse udevadm output for /dev/ttyS8
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.960
+!MESSAGE Failed to parse udevadm output for /dev/ttyS7
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.961
+!MESSAGE Failed to parse udevadm output for /dev/ttyS6
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.962
+!MESSAGE Failed to parse udevadm output for /dev/ttyS5
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.963
+!MESSAGE Failed to parse udevadm output for /dev/ttyS4
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.964
+!MESSAGE Failed to parse udevadm output for /dev/ttyS3
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.965
+!MESSAGE Failed to parse udevadm output for /dev/ttyS2
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.966
+!MESSAGE Failed to parse udevadm output for /dev/ttyS1
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:16:00.967
+!MESSAGE Failed to parse udevadm output for /dev/ttyS0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:27:19.916
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:27:20.909
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 4 0 2022-06-17 16:27:21.914
+!MESSAGE Failed to parse udevadm output for /dev/ttyACM0
+!STACK 0
+java.io.IOException: Cannot run program "udevadm": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.hasValidManufacturer(SerialPortProviderLinux.java:84)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux$PortInfo.validate(SerialPortProviderLinux.java:68)
+	at com.st.stm32cube.ide.mpu.remote.serial.internal.SerialPortProviderLinux.run(SerialPortProviderLinux.java:156)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 6 more
