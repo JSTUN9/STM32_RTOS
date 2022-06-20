@@ -1531,3 +1531,8 @@
 2022-06-17 16:51:51,365 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 3074mS.
 2022-06-17 16:51:51,366 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
 2022-06-17 16:51:51,368 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-06-18 22:49:17,825 [INFO] Activator:177 - 
+
+
+2022-06-18 22:49:17,827 [INFO] Activator:178 - !SESSION log4j initialized
+2022-06-18 22:49:22,586 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
