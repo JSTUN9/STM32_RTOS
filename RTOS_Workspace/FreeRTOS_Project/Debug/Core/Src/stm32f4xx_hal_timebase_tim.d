@@ -1,4 +1,5 @@
-Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
+Core/Src/stm32f4xx_hal_timebase_tim.o: \
+ ../Core/Src/stm32f4xx_hal_timebase_tim.c \
  C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -25,9 +26,7 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
  C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
- C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Core/Inc/stm32f4xx_it.h
-../Core/Inc/main.h:
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
 C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -55,4 +54,3 @@ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/I
 C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-../Core/Inc/stm32f4xx_it.h:

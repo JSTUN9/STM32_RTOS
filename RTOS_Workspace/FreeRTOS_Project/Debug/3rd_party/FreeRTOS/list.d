@@ -1,17 +1,17 @@
 3rd_party/FreeRTOS/list.o: ../3rd_party/FreeRTOS/list.c \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/FreeRTOS.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/FreeRTOSConfig.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/projdefs.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/portable.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/deprecated_definitions.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/mpu_wrappers.h \
- /home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/list.h
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/FreeRTOS.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/FreeRTOSConfig.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/projdefs.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/portable.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/deprecated_definitions.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/mpu_wrappers.h:
-/home/justintan/STM32_Workspace/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/list.h:
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/FreeRTOS.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/FreeRTOSConfig.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/projdefs.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/portable.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/deprecated_definitions.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/mpu_wrappers.h \
+ C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/list.h
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/FreeRTOS.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/FreeRTOSConfig.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/projdefs.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/portable.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/deprecated_definitions.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/mpu_wrappers.h:
+C:/STM32_FREERtos/RTOS_Workspace/FreeRTOS_Project/3rd_party/FreeRTOS/include/list.h:
